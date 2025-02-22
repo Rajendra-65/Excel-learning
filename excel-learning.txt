@@ -1,0 +1,55 @@
+File    Home    Insert  Draw   Page Layout   Formula   Date    Review    View   PDF Element    power Point
+	  ____
+
+
+===>>> These are the Ribbons ^^^^
+
+
+====>>> The options Below them are called the Formula Bar.
+
+
+------------------------------------        Formula               -----------------------------------
+
+RANDBETWEEN(30,90)
+SUM(range of cells)
+=SUBSTITUTE(A2,CHAR(160),"")// Removing Unbreakable Space
+=TRIM(A2) // Remove leading or lagging space
+=IF(F2<0,0,E2)
+=FIND("-",L2,1)
+=IF(D2>75000,D2*20%,IF(D2>50000,D2*15%,D2*10%)) // IF conditions..
+=IFS(D3>75000,D3*20%,D3>50000,D3*15%,D3<=50000,D3*10%) // IFS conditions (more easy)
+=IF(AND(B2="FINANCE",C2>=5),"YES","NO") // IF with AND
+=IF(OR(B2="FINANCE",C2>=5),"YES","NO") // Or condition.. 
+=VLOOKUP(H5,A2:E501,2,0) // Lookup Value , All the table column and rows , column index(column to be searched) , 0 (for Exat match).
+
+
+------------------------------------	  ShortCut Keys         -----------------------------------
+
+Ctrl + scroll-up = Zoom-In
+Ctrl + scroll-down = Zoom-Out
+Ctrl + right arrow = Total No of Columns
+Ctrl + left arrow = At the RC 1
+Ctrl + down arrow = Total No of Rows
+Ctrl + up arrow = At the RC 1
+Ctrl + s = Save sheet
+Ctrl + W = Close the WorkBook
+Ctrl + N = New WorkBook
+Ctrl + 1 = Format Cells
+Ctrl + r = for filling to right
+Ctrd + d = filling to down
+alt + = Sumaation
+alt + H + v +v = For Propper formula to text.
+Ctrl + E = Flash Fill
+alt+a+t = Apply filter
+
+------------------------------------        INFO BASICS           -----------------------------------
+
+No of Colss = 16384
+No of Rows = 1048567
+The excel book is call the SHEET .
+NameBox is used to give and select the Box.
+F12 = Save
+2 X click For saving
+xlsx (excel extension)
+Absolute/fixed Reference (Based upon One Cell) //$D$17
+Relative Reference // Based upon the bunch of rows or relation to a bunch of values.
